@@ -17,47 +17,47 @@ Just include the bootstrap-grid.less file in wherever you prefer and then you ca
 
 Make a container:
 
-  section {
+    section {
 
-    .make-container();
+      .make-container();
 
-  }
+    }
 
 Make a row:
 
-  section {
+    section {
 
-    .make-row();
+      .make-row();
 
-  }
+    }
 
 Make a column:
 
-  section {
+    section {
 
-    .make-col();
+      .make-col();
 
-  }
+    }
 
 Make an elment span so far:
 
-  section {
+    section {
 
-    .make-col();
-    .make-col-span(12);
+      .make-col();
+      .make-col-span(12);
 
-  }
+    }
 
 Use breakpoints for things:
 
-  section {
+    section {
 
-    .media-breakpoint-up(@lg, {
-        max-width: 60em;
-    });
+      .media-breakpoint-up(@lg, {
+          max-width: 60em;
+      });
 
-    .media-breakpoint-up(@xl, {
-        max-width: 73.125em;
-    });
+      .media-breakpoint-up(@xl, {
+          max-width: 73.125em;
+      });
 
-  }
+    }
