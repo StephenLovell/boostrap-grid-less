@@ -3,7 +3,7 @@
 
 This is a first past attempt at converting the new Bootstrap 4 Grid system (mixins) from SCSS to LESS.
 
-I tend to have need to both languages for different projects so having the same functionality in both places seemed like a good idea.
+I tend to have need for both languages for different projects so having the same functionality in both places seemed like a good idea.
 
 The super base functionality has been roughly converted, but there's some mixins and whatnot that are just commented out for now.
 
